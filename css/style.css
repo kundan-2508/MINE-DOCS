@@ -1,0 +1,48 @@
+/* stylesheet for navbar for index */
+/* Author - Kundan Kumar */
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+}
+
+.navbar-inverse
+{
+	border:none;
+	border-radius:0;
+	background:#222223;
+	margin:0;
+	padding:15px;
+}
+nav.navbar-inverse a.navbar-brand
+{
+	color:#cbcbf2;
+	font-size:2em;
+} 
+nav.navbar-inverse ul.navbar-nav li a
+{
+	color:#cbcbf2;
+	font-size:1.5em;
+}
+@media screen and (max-width:800px)
+{
+	.navbar-inverse
+	{
+		padding:0;
+	}
+	nav.navbar-inverse a.navbar-brand
+	{
+		font-size:1.5em;
+	} 
+	nav.navbar-inverse ul.navbar-nav li a
+	{
+		font-size:1.2em;
+	}
+}
+
+

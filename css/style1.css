@@ -1,0 +1,487 @@
+/* stylesheet for index body*/
+/* Author- Kundan Kumar */
+
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro|Orbitron');
+
+/* intro starts here */
+.intro
+{
+	//background:grey;
+	background:#000;
+	width:100%;
+	height:500px;
+	box-sizing:border-box;
+}
+.intro-text h1
+{
+	text-align:center;
+	font-size:70px;
+	margin-top:150px;
+	font-family:'Russo One', sans-serif;
+	color:#a2cbf4;
+	text-shadow: 2px 2px red;
+}
+.intro-text h3
+{
+	text-align:center;
+	color:#6add70;
+	font-size:40px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-shadow: 2px 2px red;
+}
+.intro-text h1:hover
+{
+	
+	-webkit-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	transform:scale(1.04);
+	text-shadow: 2px 2px red;
+}
+.intro-text h3:hover
+{
+	
+	-webkit-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	transform:scale(1.04);
+	text-shadow: 2px 2px red;
+}
+@media screen and (max-width:800px)
+{
+	.intro
+	{
+		height:200px;
+	}
+	.intro-text h1
+	{
+		font-size:1.6em;
+		margin-top:70px;
+		text-shadow:none;
+	}
+	.intro-text h3
+	{
+		font-size:1.6em;
+		text-shadow:none;
+	}
+}
+/* intro starts here */
+
+/* about starts here */
+
+.about
+{
+	background:#222223;
+	width:100%;
+	height:860px;
+	box-sizing:border-box;
+}
+.about-heading h2
+{
+	font-size:50px;
+	text-align:center;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	margin-top:70px;
+	margin-bottom:30px;
+}
+.about-heading h2:hover
+{
+	text-shadow: 2px 2px red;
+	-webkit-transform:scale(1.07);
+	-ms-transform:scale(1.07);
+	transform:scale(1.07);
+}
+.about-heading p
+{
+	font-size:26px;
+	color:#c0cbd1;
+	text-align:justify;
+	line-height:1.4em;
+	font-family: 'PT Sans', sans-serif;
+}
+.about-heading h3 
+{
+	text-align:center;
+	color:#c0cbd1;
+}
+.about-heading h3 a
+{
+	text-align:center;
+}
+@media screen and (max-width:800px)
+{
+	.about
+	{
+		height:auto;
+	}
+	.about-heading h2
+	{
+		font-size:30px;
+		margin-top:30px;
+	}
+	.about-heading p
+	{
+		font-size:18px;
+	}
+	.about-heading h3 
+	{
+		font-size:18px;
+	}
+}
+/* about ends here */
+
+/* faq section starts here */
+
+.faq
+{
+	width:100%;
+	height:600px;
+	background:#37474f;
+}
+.faq-heading h2
+{
+	text-align:center;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	margin-top:70px;
+	font-size:50px;
+	margin-bottom:30px;
+}
+.faq-heading h2:hover
+{
+	text-shadow: 2px 2px red;
+	-webkit-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	transform:scale(1.04);
+}
+.faq-text h3
+{
+	color:#c0cbd1;
+}
+.faq-text h3 i
+{
+	color:#c0cbd1;
+}
+.faq-text h3:hover
+{
+	-webkit-transform:translateX(20px);
+	-ms-transform:translateX(20px);
+	transform:translateX(20px);
+}
+.faq-text p
+{
+	color:#f2416f;
+	text-align:justify;
+	font-size:20px;
+	margin-left:30px;
+	font-family: 'PT Sans', sans-serif;
+}
+.faq h3#faq-bottom
+{
+	text-align:center;
+}
+.faq h3#faq-bottom 
+{
+	color:#c0cbd1;
+}
+@media screen and (max-width:800px)
+{
+	.faq
+	{
+		width:100%;
+		height:auto;
+	}
+	.faq-heading h2
+	{
+		font-size:30px;
+		margin-top:30px;
+	}
+	.faq-text p
+	{
+		font-size:18px;
+	}
+	.faq h3#faq-bottom 
+	{
+		font-size:18px;
+	}
+}
+/*faq ends here */
+
+/* help starts here */
+.help
+{
+	width:100%;
+	height:600px;
+	background:#1d2930;
+}
+.help-heading h2
+{
+	text-align:center;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	margin-top:70px;
+	font-size:50px;
+	margin-bottom:30px;
+}
+.help-heading h2:hover
+{
+	text-shadow: 2px 2px red;
+	-webkit-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	transform:scale(1.04);
+}
+.help-text ul
+{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.help-text ul li
+{
+	text-align:justify;
+	color:#c0cbd1;
+	font-size:24px;
+	font-family: 'PT Sans', sans-serif;
+}
+.help-text ul li i
+{
+	font-size:18px;
+}
+.help-text ul li:hover
+{
+	-webkit-transform:translateX(10px);
+	-ms-transform:translateX(10px);
+	transform:translateX(10px);
+}
+@media screen and (max-width:800px)
+{
+	.help
+	{
+		height:auto;
+	}
+	.help-heading h2
+	{
+		font-size:30px;
+		margin-top:30px;
+	}
+	.help-text ul li
+	{
+		color:#c0cbd1;
+		font-size:18px;
+	}
+	.help-text ul li i
+	{
+		font-size:14px;
+	}
+}
+/* help ends here */
+
+/* contact starts here */
+.contact
+{
+	width:100%;
+	height:720px;
+	background:#000B17;
+}
+.contact-heading h2
+{
+	text-align:center;
+	color:#fff;
+	font-family: 'Roboto', sans-serif;
+	margin-top:70px;
+	font-size:50px;
+	margin-bottom:30px;
+}
+.contact-heading h2:hover
+{
+	text-shadow: 2px 2px red;
+	-webkit-transform:scale(1.04);
+	-ms-transform:scale(1.04);
+	transform:scale(1.04);
+}
+.contact-sub-heading h2
+{
+	//text-align:center;
+	color:#c0cbd1;
+}
+.contact-text p
+{
+	text-align:justify;
+	color:#c0cbd1;
+	font-family:'Roboto', sans-serif;
+	font-size:22px;
+}
+.form-index
+{
+	background:transparent;
+	color:pink;
+	height:40px;
+	font-family:verdana;
+	font-size:18px;
+}
+@media screen and (max-width:800px)
+{
+	.contact
+	{
+		height:auto;
+	}
+	.contact-heading h2
+	{
+		font-size:30px;
+		margin-top:20px;
+	}
+	.contact-sub-heading h2
+	{
+		font-size:24px;
+	}
+	.contact-text p
+	{
+		font-size:18px;
+	}
+	.form-index
+	{
+		height:40px;
+		font-size:16px;
+	}
+}
+/* contact ends here */
+
+/* footer starts here */
+.footer
+{
+	background:#222223;
+	width:100%;
+	height:60px;
+}
+.footer-content p
+{
+	text-align:center;
+	color:#c0cbd1;
+	margin-top:20px;
+	font-size:20px;
+}
+@media screen and (max-width:800px)
+{
+	.footer
+	{
+		height:auto;
+	}
+	.footer-content p
+	{
+		margin-top:16px;
+		font-size:16px;
+	}
+}
+
+input:-moz-read-only.form-index 
+{ 
+    background: transparent;
+}
+
+input:read-only.form-index 
+{
+    background: transparent;
+}
+
+/* dashboard details section starts here */
+
+.details
+{
+    background:#1d2930;
+    width:100%;
+    height:auto;
+}
+
+.details-left-text h3 
+{
+    color:#c0cbd1;
+}
+.details-left-text p
+{
+    width:100%;
+    color:#c0cbd1;
+    font-size:18px;
+    text-align:justify;
+}
+
+@media screen and (min-width:800px)
+{
+     p#details-left-text-bio
+     {
+         text-align:justify;
+         font-size:13px;
+     }
+}
+label
+{
+    color:#c0cbd1;
+    //color:#fff;
+}
+.details-right-sub-heading
+{
+     color:white;
+}
+a#checkSkills
+{
+     font-size:20px;
+}
+
+@media screen and (max-width:800px)
+{
+   a#checkSkills
+   {
+   	font-size:1em;
+   }
+
+}
+table
+{
+	border:none;
+}
+/* docs section starts here */
+.table thead tr th , .table tbody tr td
+{
+	color:#fff;
+}
+td img
+{
+	width:100px;
+	height:100px;
+}
+td img:hover
+{
+	width:130px;
+	height:130px;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
